@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3651890.3672224,
+ abstract = {Apsara vSwitch (AVS) is a per-host deployed forwarding component for instance network connectivity in the Alibaba Cloud. To meet the growing performance demands, we accelerated AVS by adopting the most widely used "Sep-path" offloading architecture, which introduces a separate hardware data path to speed up popular traffic. However, the deployment results prove that it is difficult to bridge the gap in performance and programming flexibility of the software and hardware data paths, resulting in unpredictable performance and low iteration velocity.This paper introduces Triton, a flexible hardware offloading architecture for accelerating AVS. Triton stands out with a unified data path, where each packet passes serially through software and hardware processing to ensure predictable performance. For flexibility, Triton implements an elegant workload distribution model, which offloads generic tasks to hardware but maintains dynamic logic in software. Additionally, Triton integrates a series of cutting-edge software-hardware co-designs, including vector packet processing and header-payload slicing, to mitigate software bottlenecks and enhance forwarding efficiency. The deployment results compared to our prior solution based on "Sep-path" reveal that Triton achieves predictable high bandwidth and packet rate, and notably improves the connection establishment rate by 72%, with only 2μs increase in latency. More importantly, the flexibility and iteration velocity of the software in Triton will save development costs and bolster maintenance efficiency for cloud vendors.},
+ address = {New York, NY, USA},
+ author = {Li, Xing and Jiang, Xiaochong and Yang, Ye and Chen, Lilong and Wang, Yi and Wang, Chao and Xu, Chao and Lv, Yilong and Yang, Bowen and Wu, Taotao and Gao, Haifeng and Chen, Zikang and Qiao, Yisong and Ding, Hongwei and Dong, Yijian and Yang, Hang and Song, Jianming and Lu, Jianyuan and Zhang, Pengyu and Wei, Chengkun and Zhang, Zihui and Chen, Wenzhi and He, Qinming and Zhu, Shunmin},
+ booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+ doi = {10.1145/3651890.3672224},
+ isbn = {9798400706141},
+ keywords = {virtual switch, hardware offloading, SmartNIC},
+ location = {Sydney, NSW, Australia},
+ numpages = {14},
+ pages = {750–763},
+ publisher = {Association for Computing Machinery},
+ series = {ACM SIGCOMM '24},
+ title = {Triton: A Flexible Hardware Offloading Architecture for Accelerating Apsara vSwitch in Alibaba Cloud},
+ url = {https://doi.org/10.1145/3651890.3672224},
+ year = {2024}
+}
